@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Details of Customer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sixtyfour+Convergence&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="logo.png" />
+  </head>
+  <body>
+    <button class="goback">
+      <a href="index.html" style="text-decoration: none; color: white">
+        <i class="fa-solid fa-arrow-left"></i> Go Back
+      </a>
+    </button>
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <h2>Fill Details</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          <label for="phone">Phone.no :</label>
+          <input type="number" id="phone" name="phone" required />
+          <label for="message">Address:</label>
+          <textarea
+            id="message"
+            name="message"
+            required
+            placeholder="Enter your address"
+          ></textarea>
+          <button>
+            <a href="thankyou.html" style="text-decoration: none; color: white"
+              >Submit</a
+            >
+          </button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
